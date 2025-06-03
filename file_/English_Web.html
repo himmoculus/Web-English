@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Simple Website with Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #8fd5fd;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 70px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .quiz {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #e8f0fe;
+      border-radius: 8px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HOW TO UPGRADE YOUR HTML KNOWLEDGE WITH QUIZ LEARNING METHOD</h1>
+  </header>
+
+  <section>
+    <h2>Quiz Learning Method</h2>
+    <p>The Quiz Learning Method is an instructional strategy where quizzes are used not just as assessment tools, but also as an integrated part of the learning process.</p>
+
+    <h2>Benefits of the Method</h2>
+    <ul>
+      <li><strong>Assess Understanding:</strong> Helps teachers evaluate how well students grasp the material.</li>
+      <li><strong>Reinforce Knowledge:</strong> Repetition through quizzes strengthens memory.</li>
+      <li><strong>Stimulate Critical Thinking:</strong> Questions challenge students to analyze and apply knowledge.</li>
+      <li><strong>Give Feedback Quickly:</strong> Helps students learn from mistakes immediately.</li>
+    </ul>
+
+    <h3>HTML and Quizzes</h3>
+    <p>Quizzes support HTML learning because:</p>
+    <ul>
+      <li>They activate active recall.</li>
+      <li>They provide instant feedback.</li>
+      <li>They make learning more interactive.</li>
+    </ul>
+
+    <div class="quiz">
+      <h3>Quiz Time! (10 Questions)</h3>
+      <form id="quiz-form">
+        <ol>
+          <li>
+            What does HTML stand for?<br>
+            <label><input type="radio" name="q1" value="1"> Hyper Text Markup Language</label><br>
+            <label><input type="radio" name="q1" value="0"> Home Tool Markup Language</label><br>
+            <label><input type="radio" name="q1" value="0"> Hyperlinks and Text Markup Language</label><br>
+          </li>
+          <li>
+            What tag is used for inserting an image?<br>
+            <label><input type="radio" name="q2" value="0"> &lt;pic&gt;</label><br>
+            <label><input type="radio" name="q2" value="1"> &lt;img&gt;</label><br>
+            <label><input type="radio" name="q2" value="0"> &lt;image&gt;</label><br>
+          </li>
+          <li>
+            How do you make a hyperlink?<br>
+            <label><input type="radio" name="q3" value="1"> &lt;a href="..."&gt;Link&lt;/a&gt;</label><br>
+            <label><input type="radio" name="q3" value="0"> &lt;link&gt;Link&lt;/link&gt;</label><br>
+            <label><input type="radio" name="q3" value="0"> &lt;url&gt;Link&lt;/url&gt;</label><br>
+          </li>
+          <li>
+            Which tag creates a numbered list?<br>
+            <label><input type="radio" name="q4" value="1"> &lt;ol&gt;</label><br>
+            <label><input type="radio" name="q4" value="0"> &lt;ul&gt;</label><br>
+            <label><input type="radio" name="q4" value="0"> &lt;li&gt;</label><br>
+          </li>
+          <li>
+            What is the correct way to add a line break?<br>
+            <label><input type="radio" name="q5" value="1"> &lt;br&gt;</label><br>
+            <label><input type="radio" name="q5" value="0"> &lt;lb&gt;</label><br>
+            <label><input type="radio" name="q5" value="0"> &lt;break&gt;</label><br>
+          </li>
+          <li>
+            Which tag makes text bold?<br>
+            <label><input type="radio" name="q6" value="1"> &lt;b&gt;</label><br>
+            <label><input type="radio" name="q6" value="0"> &lt;strong&gt;</label><br>
+            <label><input type="radio" name="q6" value="0"> &lt;bold&gt;</label><br>
+          </li>
+          <li>
+            HTML files are saved with which extension?<br>
+            <label><input type="radio" name="q7" value="1"> .html</label><br>
+            <label><input type="radio" name="q7" value="0"> .ht</label><br>
+            <label><input type="radio" name="q7" value="0"> .xml</label><br>
+          </li>
+          <li>
+            Which tag adds a list item?<br>
+            <label><input type="radio" name="q8" value="1"> &lt;li&gt;</label><br>
+            <label><input type="radio" name="q8" value="0"> &lt;item&gt;</label><br>
+            <label><input type="radio" name="q8" value="0"> &lt;list&gt;</label><br>
+          </li>
+          <li>
+            What is the root element of an HTML document?<br>
+            <label><input type="radio" name="q9" value="1"> &lt;html&gt;</label><br>
+            <label><input type="radio" name="q9" value="0"> &lt;head&gt;</label><br>
+            <label><input type="radio" name="q9" value="0"> &lt;body&gt;</label><br>
+          </li>
+          <li>
+            What tag is used to define a paragraph?<br>
+            <label><input type="radio" name="q10" value="1"> &lt;p&gt;</label><br>
+            <label><input type="radio" name="q10" value="0"> &lt;para&gt;</label><br>
+            <label><input type="radio" name="q10" value="0"> &lt;text&gt;</label><br>
+          </li>
+        </ol>
+        <button type="button" onclick="checkQuiz()">Submit Quiz</button>
+        <p id="quiz-result"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy;DAFI GIBEA SINAGA @2025</p>
+  </footer>
+
+  <script>
+    function checkQuiz() {
+      let score = 0;
+      for (let i = 1; i <= 10; i++) {
+        const answer = document.querySelector('input[name="q' + i + '"]:checked');
+        if (answer) {
+          score += parseInt(answer.value);
+        }
+      }
+
+      const result = document.getElementById('quiz-result');
+      result.textContent = `You scored ${score * 10} out of 100.`;
+      result.style.color = score === 10 ? 'green' : 'blue';
+    }
+  </script>
+
+</body>
+</html>
+
