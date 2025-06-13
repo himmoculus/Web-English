@@ -1,180 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Simple Website with Quiz</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #8fd5fd;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-      background-color: white;
-      margin-bottom: 70px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-    }
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-    .quiz {
-      margin-top: 30px;
-      padding: 15px;
-      background-color: #e8f0fe;
-      border-radius: 8px;
-    }
-    button {
-      margin-top: 10px;
-      padding: 8px 12px;
-      background-color: #007acc;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #005fa3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SILAKAMI.ID - Peran Pancasila dalam Indonesia (C)EMAS 2045</title>
+    <style>
+        :root {
+            --merah: #E30613;
+            --kuning: #FFD100;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #e60000;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 5px solid #f0c808;
+        }
+
+        .logo {
+            max-width: 150px;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        .subtitle {
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        .post-meta {
+            text-align: center;
+            color: #666;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            padding: 0 1rem;
+        }
+
+        h2 {
+            color: #e60000;
+            border-left: 5px solid #f0c808;
+            padding-left: 1rem;
+        }
+
+        .silat-item {
+            margin-bottom: 2rem;
+        }
+
+        .silat-title {
+            font-weight: bold;
+            color: #e60000;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--merah);
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 0.5rem;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #c00;
+        }
+
+        .expanded-content {
+            display: none;
+            padding: 1rem;
+            margin-top: 1rem;
+            background-color: #f9f9f9;
+            border-left: 3px solid var(--kuning);
+            border-radius: 0 5px 5px 0;
+        }
+
+        .highlight {
+            color: #f0c808;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>SILAKAMI.ID</h1>
+        <div class="subtitle">Peran Pancasila dalam Indonesia <span class="highlight">(C)EMAS 2045</span></div>
+    </header>
 
-  <header>
-    <h1>HOW TO UPGRADE YOUR HTML KNOWLEDGE WITH QUIZ LEARNING METHOD</h1>
-  </header>
+    <div class="container">
+        <div class="post-meta">
+            Oleh: SILAKAMI.ID | Diposting pada 10 Juni 2025
+        </div>
 
-  <section>
-    <h2>Quiz Learning Method</h2>
-    <p>The Quiz Learning Method is an instructional strategy where quizzes are used not just as assessment tools, but also as an integrated part of the learning process.</p>
+        <section id="pancasila">
+            <h2>PANCASILA?</h2>
 
-    <h2>Benefits of the Method</h2>
-    <ul>
-      <li><strong>Assess Understanding:</strong> Helps teachers evaluate how well students grasp the material.</li>
-      <li><strong>Reinforce Knowledge:</strong> Repetition through quizzes strengthens memory.</li>
-      <li><strong>Stimulate Critical Thinking:</strong> Questions challenge students to analyze and apply knowledge.</li>
-      <li><strong>Give Feedback Quickly:</strong> Helps students learn from mistakes immediately.</li>
-    </ul>
+            <div class="silat-item">
+                <div class="silat-title">1. Ketuhanan Yang Maha Esa</div>
+                <p>Prinsip pertama Pancasila ini menegaskan bahwa Indonesia bukanlah negara sekuler maupun teokrasi, tetapi negara yang mengakui keberadaan Tuhan sekaligus menjamin kebebasan beragama. Dalam konteks (C)EMAS 2045, nilai ini menjadi benteng terhadap radikalisme agama yang kerap dimanfaatkan untuk kepentingan politik praktis. Survei LSI 2024 menunjukkan 23% generasi muda mulai memandang agama sebagai alat politik ketimbang sumber moral.</p>
+                <button class="btn" onclick="toggleExpand('sila1')">Pelajari Lebih Lanjut</button>
+                <div class="expanded-content" id="sila1">
+                    <p>Dalam konteks modern, nilai ini menjadi benteng terhadap radikalisme agama. Implementasinya memerlukan:</p>
+                    <ul>
+                        <li>Pendidikan agama berbasis multikultural</li>
+                        <li>Penguatan dialog antarumat beragama</li>
+                        <li>Penegakan hukum terhadap penyalahgunaan agama untuk politik</li>
+                    </ul>
+                </div>
+            </div>
 
-    <h3>HTML and Quizzes</h3>
-    <p>Quizzes support HTML learning because:</p>
-    <ul>
-      <li>They activate active recall.</li>
-      <li>They provide instant feedback.</li>
-      <li>They make learning more interactive.</li>
-    </ul>
+            <div class="silat-item">
+                <div class="silat-title">2. Kemanusiaan Yang Adil dan Beradab</div>
+                <p>Sila kedua ini mengandung paradoks yang menantang di era digital. Di satu sisi, teknologi memudahkan hubungan antarmanusia, tetapi di sisi lain meningkatkan dehumanisasi melalui ujaran kebencian dan cancel culture. Laporan MAFINDO 2025 mencatat peningkatan 40% kasus cyberbullying berbasis SARA.</p>
+                <button class="btn" onclick="toggleExpand('sila2')">Pelajari Lebih Lanjut</button>
+                <div class="expanded-content" id="sila2">
+                    <p>Di era digital, sila ini menghadapi tantangan dehumanisasi melalui ujaran kebencian. Solusi yang diperlukan:</p>
+                    <ul>
+                        <li>Pendidikan karakter berbasis Pancasila</li>
+                        <li>Regulasi konten digital yang humanis</li>
+                        <li>Penguatan sistem perlindungan HAM</li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="quiz">
-      <h3>Quiz Time! (10 Questions)</h3>
-      <form id="quiz-form">
-        <ol>
-          <li>
-            What does HTML stand for?<br>
-            <label><input type="radio" name="q1" value="1"> Hyper Text Markup Language</label><br>
-            <label><input type="radio" name="q1" value="0"> Home Tool Markup Language</label><br>
-            <label><input type="radio" name="q1" value="0"> Hyperlinks and Text Markup Language</label><br>
-          </li>
-          <li>
-            What tag is used for inserting an image?<br>
-            <label><input type="radio" name="q2" value="0"> &lt;pic&gt;</label><br>
-            <label><input type="radio" name="q2" value="1"> &lt;img&gt;</label><br>
-            <label><input type="radio" name="q2" value="0"> &lt;image&gt;</label><br>
-          </li>
-          <li>
-            How do you make a hyperlink?<br>
-            <label><input type="radio" name="q3" value="1"> &lt;a href="..."&gt;Link&lt;/a&gt;</label><br>
-            <label><input type="radio" name="q3" value="0"> &lt;link&gt;Link&lt;/link&gt;</label><br>
-            <label><input type="radio" name="q3" value="0"> &lt;url&gt;Link&lt;/url&gt;</label><br>
-          </li>
-          <li>
-            Which tag creates a numbered list?<br>
-            <label><input type="radio" name="q4" value="1"> &lt;ol&gt;</label><br>
-            <label><input type="radio" name="q4" value="0"> &lt;ul&gt;</label><br>
-            <label><input type="radio" name="q4" value="0"> &lt;li&gt;</label><br>
-          </li>
-          <li>
-            What is the correct way to add a line break?<br>
-            <label><input type="radio" name="q5" value="1"> &lt;br&gt;</label><br>
-            <label><input type="radio" name="q5" value="0"> &lt;lb&gt;</label><br>
-            <label><input type="radio" name="q5" value="0"> &lt;break&gt;</label><br>
-          </li>
-          <li>
-            Which tag makes text bold?<br>
-            <label><input type="radio" name="q6" value="1"> &lt;b&gt;</label><br>
-            <label><input type="radio" name="q6" value="0"> &lt;strong&gt;</label><br>
-            <label><input type="radio" name="q6" value="0"> &lt;bold&gt;</label><br>
-          </li>
-          <li>
-            HTML files are saved with which extension?<br>
-            <label><input type="radio" name="q7" value="1"> .html</label><br>
-            <label><input type="radio" name="q7" value="0"> .ht</label><br>
-            <label><input type="radio" name="q7" value="0"> .xml</label><br>
-          </li>
-          <li>
-            Which tag adds a list item?<br>
-            <label><input type="radio" name="q8" value="1"> &lt;li&gt;</label><br>
-            <label><input type="radio" name="q8" value="0"> &lt;item&gt;</label><br>
-            <label><input type="radio" name="q8" value="0"> &lt;list&gt;</label><br>
-          </li>
-          <li>
-            What is the root element of an HTML document?<br>
-            <label><input type="radio" name="q9" value="1"> &lt;html&gt;</label><br>
-            <label><input type="radio" name="q9" value="0"> &lt;head&gt;</label><br>
-            <label><input type="radio" name="q9" value="0"> &lt;body&gt;</label><br>
-          </li>
-          <li>
-            What tag is used to define a paragraph?<br>
-            <label><input type="radio" name="q10" value="1"> &lt;p&gt;</label><br>
-            <label><input type="radio" name="q10" value="0"> &lt;para&gt;</label><br>
-            <label><input type="radio" name="q10" value="0"> &lt;text&gt;</label><br>
-          </li>
-        </ol>
-        <button type="button" onclick="checkQuiz()">Submit Quiz</button>
-        <p id="quiz-result"></p>
-      </form>
+            <div class="silat-item">
+                <div class="silat-title">3. Persatuan Indonesia</div>
+                <p>Persatuan Indonesia menjadi landasan penting untuk menghadapi tantangan globalisasi dan polarisasi politik. Dalam konteks 2045, persatuan harus dibangun bukan hanya dengan slogan, tetapi melalui kebijakan inklusif yang memperkuat identitas kebangsaan tanpa menghapus keragaman budaya.</p>
+                <button class="btn" onclick="toggleExpand('sila3')">Pelajari Lebih Lanjut</button>
+                <div class="expanded-content" id="sila3">
+                    <p>Implementasi sila ketiga dapat dilakukan melalui:</p>
+                    <ul>
+                        <li>Kurasi narasi kebangsaan yang menyatukan</li>
+                        <li>Dukungan terhadap kebudayaan lokal sebagai kekuatan nasional</li>
+                        <li>Dialog lintas identitas dan generasi</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="silat-item">
+                <div class="silat-title">4. Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan</div>
+                <p>Sila keempat menekankan pentingnya demokrasi deliberatif, bukan sekadar prosedural. Dalam konteks (C)EMAS 2045, praktik demokrasi harus menjunjung musyawarah dan partisipasi aktif rakyat. Namun, realitanya masih didominasi oleh oligarki politik dan minimnya keterlibatan generasi muda.</p>
+                <button class="btn" onclick="toggleExpand('sila4')">Pelajari Lebih Lanjut</button>
+                <div class="expanded-content" id="sila4">
+                    <p>Untuk memperkuat sila keempat, perlu dilakukan langkah-langkah berikut:</p>
+                    <ul>
+                        <li>Pendidikan politik kritis di kalangan pelajar dan mahasiswa</li>
+                        <li>Penguatan lembaga perwakilan rakyat yang akuntabel</li>
+                        <li>Mendorong platform musyawarah digital yang inklusif</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="silat-item">
+                <div class="silat-title">5. Keadilan Sosial bagi Seluruh Rakyat Indonesia</div>
+                <p>Nilai sila kelima menjadi tujuan akhir dari seluruh proses pembangunan. Ketimpangan sosial dan ekonomi masih menjadi tantangan serius. Dalam proyeksi 2045, ketimpangan ini bisa menjadi bom waktu jika tidak ditangani serius.</p>
+                <button class="btn" onclick="toggleExpand('sila5')">Pelajari Lebih Lanjut</button>
+                <div class="expanded-content" id="sila5">
+                    <p>Strategi implementasi sila kelima dapat dilakukan dengan:</p>
+                    <ul>
+                        <li>Reformasi agraria dan distribusi ekonomi berbasis kerakyatan</li>
+                        <li>Peningkatan akses layanan dasar seperti pendidikan dan kesehatan</li>
+                        <li>Penguatan kebijakan affirmative action untuk kelompok rentan</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="indonesia-emas">
+            <h2>INDONESIA <span class="highlight">(C)EMAS</span> 2045?</h2>
+            <p>Visi Indonesia Emas 2045 menargetkan Indonesia menjadi negara maju dengan ekonomi terbesar ke-5 dunia saat merayakan 100 tahun kemerdekaan. Namun, dalam realitasnya, visi tersebut menghadapi beragam tantangan struktural dan kultural. Ketimpangan ekonomi, rendahnya kualitas sumber daya manusia, serta ancaman disintegrasi sosial akibat polarisasi politik menjadi hambatan serius yang harus diatasi secara sistemik dan berkelanjutan.
+
+</p>
+            <button class="btn" onclick="toggleExpand('emas2045')">Pelajari Lebih Lanjut</button>
+            <div class="expanded-content" id="emas2045">
+                <p>Namun banyak pihak meragukan pencapaian ini melihat kondisi saat ini:</p>
+                <ul>
+                    <li>Korupsi sistemik yang masih tinggi</li>
+                    <li>Kualitas pendidikan yang tertinggal</li>
+                    <li>Polarisasi politik yang mengancam persatuan</li>
+                    <li>Kerusakan lingkungan yang masif</li>
+                </ul>
+                <p>Istilah (C)EMAS merupakan satir terhadap kondisi dimana pertumbuhan ekonomi tidak diimbangi dengan kekuatan karakter bangsa.</p>
+            </div>
+        </section>
+
+        <section id="peran-pancasila">
+            <h2>PERAN PANCASILA SEBAGAI LANDASAN UTAMA</h2>
+            <p>Pancasila bukan hanya simbol, tetapi senjata ampuh untuk membangun Indonesia yang lebih baik. Dalam menghadapi tantangan Indonesia menuju 2045, Pancasila berperan sebagai fondasi moral dan ideologis yang menyatukan arah pembangunan bangsa. Ia bukan sekadar warisan sejarah, tetapi harus dihidupkan dalam setiap aspek kehidupan bernegara, dari kebijakan publik hingga perilaku warga negara.</p>
+            <button class="btn" onclick="toggleExpand('peran')">Pelajari Lebih Lanjut</button>
+            <div class="expanded-content" id="peran">
+                <p>Menurut pakar, strategi implementasi Pancasila meliputi:</p>
+                <ol>
+                    <li><strong>Revitalisasi Pendidikan</strong>: Integrasi nilai Pancasila dalam semua mata pelajaran</li>
+                    <li><strong>Keteladanan Elite</strong>: Aparatur negara harus menjadi contoh pengamalan Pancasila</li>
+                    <li><strong>Reformasi Kebijakan</strong>: Semua UU dan peraturan harus sesuai dengan nilai Pancasila</li>
+                </ol>
+                <p>Dr. Yudi Latif menegaskan: "Pancasila harus menjadi living ideology yang diterapkan dalam kehidupan sehari-hari, bukan hanya dihafal."</p>
+            </div>
+        </section>
+
+            <section id="penutup">
+        <h2>KESIMPULAN</h2>
+        <p><em>"Membangun Indonesia Emas bukan hanya tentang ekonomi dan teknologi, tetapi juga tentang karakter dan nilai. Pancasila adalah kompas moral kita untuk memastikan kemajuan tak kehilangan arah. Mari menjadi generasi yang tak hanya cerdas, tapi juga beradab, bersatu, dan beriman."</em></p>
+        <p style="text-align: right; font-weight: bold;">— Tim SILAKAMI.ID</p>
+    </section>
+
+
+        <section>
+            <p><strong>Demikianlah ulasan dari SILAKAMI.ID mengenai Peran Pancasila dalam Indonesia (C)EMAS 2045, semoga bisa bermanfaat.</strong></p>
+        </section>
     </div>
-  </section>
 
-  <footer>
-    <p>&copy;DAFI GIBEA SINAGA @2025</p>
-  </footer>
+    <footer>
+        SILAKAMI.ID ©2025
+    </footer>
 
-  <script>
-    function checkQuiz() {
-      let score = 0;
-      for (let i = 1; i <= 10; i++) {
-        const answer = document.querySelector('input[name="q' + i + '"]:checked');
-        if (answer) {
-          score += parseInt(answer.value);
+    <script>
+        function toggleExpand(id) {
+            const content = document.getElementById(id);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+                content.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
         }
-      }
-
-      const result = document.getElementById('quiz-result');
-      result.textContent = `You scored ${score * 10} out of 100.`;
-      result.style.color = score === 10 ? 'green' : 'blue';
-    }
-  </script>
-
+    </script>
 </body>
 </html>
-
